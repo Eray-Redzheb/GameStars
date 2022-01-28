@@ -1,0 +1,52 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" contact="widht=device-widht, initial-scale=1.0">
+    <title>Hardcore Games</title>
+    <link rel="icon" href="images/logo.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/contact.css">   
+</head>
+<body>
+    <div class="header" id="header">
+        <img src="images/logo.png" class="logoimg" alt="logo" height="54px">
+        <a href="index.html" class="logo">Hardcore Games</a>
+        <div class="header-right">
+          <a href="index.html">Home</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="merch2.html">Merch</a>
+          <a href="aboutus.html">About</a>
+          <a href="contact.html" class="active">Contact</a>
+        </div>
+      </div>
+    <script>
+        function myFunction() {
+            var x =
+            document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else{
+                x.c;assName = "topnav";
+            }
+        }
+    </script>
+    <dive class="contact-section">
+        <div class="contact-info">
+            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>Johan de eesteryduyag</div>
+            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i>555-5555-555</div>
+            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>Gameddh@gmail.com</div>
+        </div>
+        <dive class="contact-form">
+            <h2>Contact us</h2>
+            <form class="contact" action="https://formspree.io/f/mayvqrny" method="post">
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input type="text" name="email" class="text-box" placeholder="Your Email" required>
+                <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" name="submit" class="send-btn" value="send">
+            </form>
+        </dive>
+    </dive>
+</body>
+</html>
